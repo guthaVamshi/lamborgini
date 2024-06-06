@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@100..800&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+  font-family: "Kanit", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.hero-section {
+    background: url('img/hero-bg.jpg') no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+    color: white;
+  }
+  
+  .testimonial {
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  footer {
+    background: #343a40;
+  }
+  
+.audio-player {
+  display: flex;
+  align-items: center;
+  background-color: #111;
+  padding: 20px;
+  border-radius: 50px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+  transition: background-color 0.3s;
+}
+
+.play-button {
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  font-size: 24px;
+  cursor: pointer;
+  outline: none;
+  transition: transform 0.3s;
+}
+
+.play-button:hover {
+  transform: scale(1.1);
+}
+
+.play-button:focus {
+  outline: none;
+}
+a{
+  text-decoration: none !important;
+  color: black;
+}
